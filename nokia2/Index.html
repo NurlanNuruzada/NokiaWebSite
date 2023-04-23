@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nokia Corporation2</title>
+    <link rel="icon" href="Assets/Images/NOK-3138a490.png">
+    <link rel="stylesheet" href="Assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7f791d4b55.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div>
+        <nav class="nav__main">
+            <ul>
+                <li>Careers</li>
+                <li>Investors</li>
+                <li>Newsroom</li>
+            </ul>
+        </nav>
+        <div class="navbar">
+            <img class="icon" src="https://www.nokia.com/themes/custom/onenokia_reskin/logo.svg" alt="">
+            <ul>
+                <li>Service providers</li>
+                <li>Enterprises and government</li>
+                <li>Licensing</li>
+                <li>Partners</li>
+                <li>Insights and research</li>
+                <li>We are Nokia</li>
+            </ul>
+            <div class="icons clearfix">
+                <i class="fa-solid  fa-xl fa-globe" style="color: #0065ed;"></i>
+                <i class="fa-solid  fa-xl fa-magnifying-glass fa-rotate-90 " style=" color: #0065ed;"></i>
+            </div>
+        </div>
+    </div>
+    <div class="slideshow__container">
+        <div class="mySlides fade">
+            <div class="section">
+                <video id="fist__video" class="video" autoplay muted loop id="myVideo">
+                    <source  src="Assets/Images/wb_theme_10sec_mixedtheme_16x9-loop-v2.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                </video>
+                <div class="intro">
+                    <h1 class="intro__title"> Harness the exponential potential of networks </h1>
+                    <p class="intro__content">
+                        Transform to the power of
+                        <em>n</em>
+                    </p>
+                    <button>Harness the potential</button>
+                </div>
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="section">
+                <video class="video" autoplay muted loop id="myVideo">
+                    <source src="Assets/Images/wb_theme_10sec_naturalworld01_16x9-loop-2_0.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                </video>
+                <div class="intro">
+                    <h1 class="intro__title">Sustainability
+                        <sup>n</sup>
+                    </h1>
+                    <p class="intro__content">
+                        Maximize efficiency and minimize waste by accelerating
+                    </p>
+                    <p class="intro__content2">
+                        digital in your business</p>
+                    <button>Harness the potential</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="section">
+                <video class="video" autoplay muted loop id="myVideo">
+                    <source src="Assets/Images/wb_theme_10sec_mixedtheme_16x9-loop-v2.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                </video>
+                <div class="intro">
+                    <h1 class="intro__title"> Collaboration
+                        <sup>n</sup>
+                    </h1>
+                    <p class="intro__content">
+                        Create value by amplifying cooperation
+                    </p>
+                    <p class="intro__content2">
+                        with your competitors</p>
+                    <button>Harness the potential</button>
+
+                </div>
+            </div>
+        </div>
+        <div class="click__conrainer">
+            <div class="click__prev">
+                <img class="prev" onclick="plusSlides(-1)" src="../Assets/Images/right-left.png" width="50px" alt="">
+            </div>
+            <div class="click__next">
+                <img class="next" onclick="plusSlides(1)" src="Assets/Images/right-arrow.png" width="50px alt="">
+            </div>
+        </div>
+
+    </div>
+    <div class=" section2">
+                <div>
+                    <div class="section2__left">
+                        <h1 class="section2__header">Get in the Know, now</h1>
+                        <p>Our Know, now report uncovers the most important trends in human augmentation. Learn more
+                            about the opportunities it creates for business and society.
+                        </p>
+                        <button>Harness the potential</button>
+                    </div>
+                    <div class="section2__img">
+                        <img src="Assets/Images/nokia_know-now_thumbnail_1080x1080-1_0.jpg" alt="">
+                    </div>
+                </div>
+                <p></p>
+            </div>
+            <script>
+                let slideIndex = 1;
+                showSlides(slideIndex);
+
+                function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                }
+
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                    let i;
+                    let slides = document.getElementsByClassName("mySlides");
+                    let dots = document.getElementsByClassName("dot");
+                    if (n > slides.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = slides.length }
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                }
+            </script>
+
+
+</body>
+
+</html>
