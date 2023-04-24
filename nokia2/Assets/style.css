@@ -536,10 +536,20 @@ footer {
     font-size: 16px;
     font-weight: 700;
 }
+.content__section15 {
+    display: inline-block;
+    padding-right: 42px;
+    color: #666;
+    font-size: 13px;
+    font-weight: 300;
+    text-shadow: 0 0 0 black;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
 
-.section13 button{
+.section13 button {
     border: solid 1px #0065ed;
-    background-color:white;
+    background-color: white;
     color: #0065ed;
     margin-top: 35px;
     padding: 12px 18px;
@@ -547,5 +557,20 @@ footer {
     font-weight: 700;
     font-size: medium;
     cursor: pointer;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
+}
+
+.section13 img {
+    vertical-align: top;
+}
+.img__section13{
+    margin-right: 10px;
+}
+.images{
+    padding-bottom: 30px;
+    border-bottom: 2px solid gray;
+}
+.section14 p{
+    margin-bottom: 16px;
+    color: #666;
 }
