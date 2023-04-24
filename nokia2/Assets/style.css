@@ -154,7 +154,7 @@ body {
     left: 13px;
     opacity: 0.7;
     margin-top: 160px;
-    margin-bottom: 84px;
+    margin-bottom: 101px;
     position: static;
     opacity: 0.5;
 }
@@ -167,30 +167,49 @@ body {
     margin-left: 20px;
     position: absolute;
     display: inline-block;
-}
-.section2{
+} 
+  
+.section2 {
     display: flex;
     width: 100vw;
 }
 
-.section2 img{
-    display: flex;
-    width: 50vw;
+.section2 img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    right: 14px;
 }
-.section2__header{
-    width: 50vw;
-    font-size: 36px;
+.section2__left {
+    transform: scale(1, 1.1);
+    width: 50%;
+    margin-top: 210px;
+    margin-left: 50px;
+}
+.section2__right {
+    width: 53%;
+}
+.section2__header {
+    font-weight: 300;
+    text-shadow:  0 0 0 black;
+    margin-bottom: 20px;
+    font-size: 30px;
     display: inline-block;
     cursor: context-menu;
-    
 }
+
 .section2 p {
     cursor: context-menu;
+    transform: scale(1, 1.1);
+    padding-right: 130px;
+    text-align: justify;
 }
-.section2 button{
-    background-color: #0065ed;
+
+.section2 button {
+    background-color: #005AFF;
+    border: none;
     color: white;
-    margin-top: 35px;
+    margin-top: 46px;
     padding: 12px 18px;
     border-radius: 3px;
     border: solid transparent 1px;
@@ -198,12 +217,57 @@ body {
     font-size: medium;
     cursor: pointer;
 }
-.section2 button:hover {
-    background-color: #1150a2;
-    transition: 0.7s;
+.section3{
+    display: flex;
 }
 
-  
-  
+.section3__left img{
+    width: 630px;
+    position: relative;
+    top: -5px;
+}
+
+.section3__right{
+    float: right;
+    width: 50%;
+    clear: both;
+    margin-left: 46px;
+}
+.section3__header {
+    font-weight: 300;
+    text-shadow:  0 0 0 black;
+    margin-bottom: 20px;
+    font-size: 30px;
+    display: inline-block;
+    cursor: context-menu;
+}
+
+.section3 p {
+    cursor: context-menu;
+    transform: scale(1, 1.1);
+    padding-right: 130px;
+    text-align: justify;
+}
+
+.section3 button {
+    background-color: #005AFF;
+    border: none;
+    color: white;
+    margin-top: 46px;
+    padding: 12px 18px;
+    border-radius: 3px;
+    border: solid transparent 1px;
+    font-weight: 700;
+    font-size: medium;
+    cursor: pointer;
+}
+.section3__right__content{
+    position: relative;
+    margin-top: 178px;
+    left: 20px;
+
+}
+
+
 
 

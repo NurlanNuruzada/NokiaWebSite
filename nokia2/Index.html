@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <div>
+    <div class="nav">
         <nav class="nav__main">
             <ul>
                 <li>Careers</li>
@@ -45,7 +45,7 @@
         <div class="mySlides fade">
             <div class="section">
                 <video id="fist__video" class="video" autoplay muted loop id="myVideo">
-                    <source  src="Assets/Images/wb_theme_10sec_mixedtheme_16x9-loop-v2.mp4" type="video/mp4">
+                    <source src="Assets/Images/wb_theme_10sec_mixedtheme_16x9-loop-v2.mp4" type="video/mp4">
                     Your browser does not support HTML5 video.
                 </video>
                 <div class="intro">
@@ -77,7 +77,6 @@
                 </div>
             </div>
         </div>
-
         <div class="mySlides fade">
             <div class="section">
                 <video class="video" autoplay muted loop id="myVideo">
@@ -106,23 +105,34 @@
                 <img class="next" onclick="plusSlides(1)" src="Assets/Images/right-arrow.png" width="50px alt="">
             </div>
         </div>
-
     </div>
     <div class=" section2">
-                <div>
-                    <div class="section2__left">
-                        <h1 class="section2__header">Get in the Know, now</h1>
-                        <p>Our Know, now report uncovers the most important trends in human augmentation. Learn more
-                            about the opportunities it creates for business and society.
-                        </p>
-                        <button>Harness the potential</button>
-                    </div>
-                    <div class="section2__img">
-                        <img src="Assets/Images/nokia_know-now_thumbnail_1080x1080-1_0.jpg" alt="">
-                    </div>
-                </div>
-                <p></p>
-            </div>
+        <div class="section2__left split">
+            <h1 class="section2__header">Get in the Know, now</h1>
+            <p>Our Know, now report uncovers the most important trends in human augmentation. Learn more
+                about the opportunities it creates for business and society.
+            </p>
+            <button>Download Know, now</button>
+        </div>
+        <div class="section2__right split">
+            <img src="Assets/Images/nokia_know-now_thumbnail_1080x1080-1_0.jpg" alt="">
+        </div>
+    </div>
+    <div class="section3">
+        <div class="section3__left">
+            <img src="Assets/Images/nokia_pp-covers_1080x1080.jpg" alt="">
+        </div>
+        <div class="section3__right">
+            <div class=" section3__right__content"></div>
+            <h1 class="section3__header">People and Planet sustainability report</h1>
+            <p>We see the potential of digital to create a more sustainable, productive and accessible world. Learn more about how we practice sustainability in our 2022 annual sustainability report, People and Planet.
+            </p>
+            <button>Download our 2022 sustainability report</button>
+        </div>
+    </div>
+    <div class="section4">
+        <img src="Assets/Images/teal-green.png" alt="">
+    </div>
             <script>
                 let slideIndex = 1;
                 showSlides(slideIndex);
@@ -151,8 +161,6 @@
                     dots[slideIndex - 1].className += " active";
                 }
             </script>
-
-
 </body>
 
 </html>
