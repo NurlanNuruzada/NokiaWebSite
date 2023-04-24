@@ -49,7 +49,7 @@ body {
     position: relative;
     padding: 4px 5px;
     top: 10px;
-    margin-left: 10px;
+    margin-left: 20px;
     width: 110px;
     display: inline-block;
     clear: both;
@@ -386,7 +386,8 @@ body {
 .section6 img {
     border-radius: 8px;
     margin-left: 20px;
-    width: 1238px;
+    width: 100%;
+    margin-top: 65px;
     height: 676px;
     object-fit: cover;
 }
@@ -461,7 +462,7 @@ body {
 }
 
 .section8 {
-    margin-bottom: 155px;
+    margin-bottom: 134px;
 }
 
 .section8 .intro__content {
@@ -469,15 +470,14 @@ body {
 }
 
 .section9 {
-    border-bottom: 2px solid gray;
-    opacity: 0.6;
+    border-bottom: 2px solid rgb(128, 128, 128, 0.6);
     margin-bottom: 20px;
 }
 
 .icon__section9 {
     display: block;
     width: 87px;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 40px;
 }
 
@@ -503,7 +503,7 @@ footer {
 .section11 {
     margin-top: 30px;
     padding-bottom: 40px;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid rgb(128, 128, 128, 0.6);
     margin-bottom: 20px;
     display: grid;
     font-size: 14px;
@@ -524,7 +524,7 @@ footer {
 .section12 {
     text-align: left;
     display: flex;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid rgb(128, 128, 128, 0.6);
     margin-top: 50px;
     padding-bottom: 50px;
 }
@@ -536,20 +536,11 @@ footer {
     font-size: 16px;
     font-weight: 700;
 }
-.content__section15 {
-    display: inline-block;
-    padding-right: 42px;
-    color: #666;
-    font-size: 13px;
-    font-weight: 300;
-    text-shadow: 0 0 0 black;
-    margin-bottom: 40px;
-    cursor: pointer;
-}
+
 
 .section13 button {
     border: solid 1px #0065ed;
-    background-color: white;
+    background-color: rgba(222, 215, 215, 0.1);
     color: #0065ed;
     margin-top: 35px;
     padding: 12px 18px;
@@ -563,14 +554,33 @@ footer {
 .section13 img {
     vertical-align: top;
 }
-.img__section13{
+
+.img__section13 {
     margin-right: 10px;
 }
-.images{
+
+.images {
     padding-bottom: 30px;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid rgb(128, 128, 128, 0.6);
 }
-.section14 p{
+
+.section14 p {
+    margin-top: 32px;
     margin-bottom: 16px;
     color: #666;
+    font-size: 14px;
+}
+.content__section15 {
+    display: inline-block;
+    padding-right: 20px;
+    color: #666;
+    font-size: 13px;
+    font-weight: 300;
+    text-shadow: 0 0 0 black;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.backgorund__footer{
+    border-bottom:  rgb(171, 171, 171);
+    width: 100%;
 }
